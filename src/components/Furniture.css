@@ -1,0 +1,17 @@
+.checkbox {
+    display: flex;
+}
+ .list{
+   flex-direction: column;
+   align-items: center;
+   
+}
+  .checkbox form input {
+    margin:-120px;
+    gap: 2px;
+    
+}
+.proplist-container{
+  overflow-x: hidden;
+
+}

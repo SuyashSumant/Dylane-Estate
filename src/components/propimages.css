@@ -1,0 +1,36 @@
+.text {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 70%;
+}
+
+.storage{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.text p{
+    margin-top: 40px;
+    /* width: 800px;
+    margin: auto; */
+}
+.storage .btn {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+.btn .btn-inner{
+    padding: 20px 30px;
+    margin: 5px;
+    color: white;
+    background-color: #122B49;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:22px;
+}

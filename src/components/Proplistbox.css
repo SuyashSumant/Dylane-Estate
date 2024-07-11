@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=s');
+.proplist-container{
+    width: 976px;
+height: 552px;
+/* border: 2px solid black; */
+border-radius: 16px ;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-family: "Inter", sans-serif;
+overflow-y: auto;
+
+}
+
+.proplist-container ul{
+    display: flex;
+    height: 90px;
+    border-radius: 16px ;
+
+     background: #FCF8F4;
+}
+.proplist-box li{
+    flex-direction: column;
+    list-style: none;
+    margin: 35px;
+    gap: 15px;
+    font-weight: 400;
+}
+.proplist-box .name{
+    margin-top: 15px;
+    
+    
+}
+.name input{
+    margin: 15px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.buttons .list-btn{
+width: auto;
+height: auto;
+padding: 10px;
+margin: 15px;
+border: 1px solid rgb(218, 210, 210);
+border-radius: 18px;
+ background: #FFFFFF;
+}
+.list-btn:hover{
+    background: #122B49;
+    color: #FFFFFF;
+}
+
+.info {
+    margin-left: 150px;
+}
+
+.prop-footer{
+    background: #122B49;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 68px 10px 68px;
+    justify-content: space-between;
+    margin-top: 25px;  
+    gap: 50px;
+}
+.prop-footer .btn{
+    width: Fixed (110px)px;
+    height: Fixed (16px);
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #122B49;
+    color: white;
+    border: 2px solid white;
+    align-items: center;
+}
+.info label{
+    font-size: 16px;
+}
+h3{
+    font-size: 18px;
+}
+hr{
+    width: 976px;
+    height:4px;
+    background: #D6D6D6;
+}
+

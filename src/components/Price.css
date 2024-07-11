@@ -1,0 +1,11 @@
+.details input{
+    width: 776px;
+    height: 300px;
+    margin-top: 20px;
+}
+.details{
+    margin-top: 10px;
+}
+.Location-name .column label{
+    margin-top: 15px;
+}

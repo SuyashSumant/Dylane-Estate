@@ -1,0 +1,30 @@
+.Location-name{
+    display: flex;
+    gap: 200px;
+}
+.proplist-container{
+    overflow-x: hidden;
+  
+  }
+
+.column{
+    margin: 5px;
+    flex-direction: column;
+}
+.column label{
+    margin-left: 10px;
+}
+
+.img{
+    margin-left: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: 10px;
+    width: 700px;
+    position: relative;
+
+}
+.img input{
+    position: absolute;
+    width: 650px;
+}
